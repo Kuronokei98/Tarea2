@@ -1,0 +1,108 @@
+
+body{
+	font-family: 'Inter Tight', sans-serif;
+background: #e8e8e8;
+}
+
+
+.Menu{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	border-radius: 20px;
+}
+
+
+.Menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+
+.Menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+
+.Menu li a:hover{
+	background: red;
+	border-radius: 20px;
+}
+
+
+
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+h1{
+	font-family: 'Inter Tight', sans-serif;
+	text-align: center;
+}
+
+footer{
+	
+	display: flex;
+	background: black;
+	max-width: 1000px;
+	height: 35px;
+	margin: auto;
+	border-radius: 11px
+}
+
+.pie{
+	max-width: 1000px;
+	padding: 0;
+	color: white;
+	font-family: 'Inter Tight', sans-serif;
+	text-align: center;
+	margin: auto;
+}
+
+.pie{
+	display: inline-block;
+	text-align: center;
+}
+
+.menut {
+width: 2.2rem;
+height: 2.7rem;
+background: #da1717;
+border-radius: 0.5rem;
+position: absolute;
+top: 50%;
+left: 5%;
+font-family:'Inter Tight', sans-serif;
+font-size: 2rem;
+color: white;
+text-align: center;
+transition: 0.7s;
+}
+
+.checkbox:checked ~ .menut {
+left: 40%;
+border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.left-panel{
+	width: 40%;
+	height: 100%;
+	background: color red
+	position: absolute;
+	top: 0;
+	left: -40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: left 0.4s;
+}
+/*/https://www.youtube.com/watch?v=lB46vlLi0EY*/
+/*https://www.youtube.com/watch?v=PW_A-lOpVV0*/
+/*https://bluuweb.github.io/desarrollo-web-bluuweb/07-01-git/#github*/
